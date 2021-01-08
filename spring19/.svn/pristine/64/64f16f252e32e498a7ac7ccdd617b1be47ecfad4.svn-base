@@ -1,0 +1,27 @@
+//
+// Created by Suku on 3/5/2019.
+//
+
+#ifndef XONIX_ENEMY_H
+#define XONIX_ENEMY_H
+
+class Enemy{
+
+public:
+    int getX() const;
+    void setX(int x);
+    int getY() const;
+    void setY(int y);
+    int getDX() const;
+    void setDX(int dx);
+    int getDY() const;
+    void setDY(int dy);
+
+private:
+    int m_x;
+    int m_y;
+    int m_dx;
+    int m_dy;
+};
+
+#endif //XONIX_ENEMY_H

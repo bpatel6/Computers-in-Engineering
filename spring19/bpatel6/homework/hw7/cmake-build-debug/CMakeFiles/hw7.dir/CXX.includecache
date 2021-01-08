@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CIE/spring19/bpatel6/homework/hw7/List.h
+
+C:/CIE/spring19/bpatel6/homework/hw7/Node.h
+
+C:/CIE/spring19/bpatel6/homework/hw7/main.cpp
+iostream
+-
+Node.h
+C:/CIE/spring19/bpatel6/homework/hw7/Node.h
+List.h
+C:/CIE/spring19/bpatel6/homework/hw7/List.h
+

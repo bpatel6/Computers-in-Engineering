@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CIE/bpatel6/homework/hw8/Date.h
+ostream
+-
+
+C:/CIE/bpatel6/homework/hw8/Food.h
+iostream
+-
+string
+-
+Date.h
+C:/CIE/bpatel6/homework/hw8/Date.h
+
+C:/CIE/bpatel6/homework/hw8/Frig.h
+list
+-
+iostream
+-
+Food.h
+C:/CIE/bpatel6/homework/hw8/Food.h
+Date.h
+C:/CIE/bpatel6/homework/hw8/Date.h
+iomanip
+-
+
+C:/CIE/bpatel6/homework/hw8/main.cpp
+iostream
+-
+Date.h
+C:/CIE/bpatel6/homework/hw8/Date.h
+Food.h
+C:/CIE/bpatel6/homework/hw8/Food.h
+Frig.h
+C:/CIE/bpatel6/homework/hw8/Frig.h
+fstream
+-
+

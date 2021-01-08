@@ -1,0 +1,100 @@
+//
+// Created by Suku on 4/10/2019.
+//
+using namespace std;
+
+#ifndef HW7_LIST_H
+#define HW7_LIST_H
+class List{
+public:
+    List() : m_startptr{nullptr} {
+    }
+    List(List const &listToCopy) : m_startptr{nullptr} {
+        cout << "Copy Constructor Called" << endl;
+
+        for (Node *currentPtr = listToCopy.m_startptr; currentPtr != nullptr; currentPtr = currentPtr->getnextptr()){
+            insert(currentPtr->getdata());
+        }
+    }
+    bool empty() const {
+        if (m_startptr == nullptr) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    void print() const {
+        for (Node *currentPtr = m_startptr; currentPtr != nullptr; currentPtr = currentPtr->getnextptr()){
+            cout << currentPtr->getdata() << " ";
+        }
+    }
+    void insert(int val) {
+        NodePtr newNodePtr;
+        NodePtr beforeNodePtr, afterNodePtr;
+        newNodePtr = new Node;
+
+        if (newNodePtr != nullptr) {
+            newNodePtr->setdata(val);
+            newNodePtr->setnextptr(nullptr);
+
+            beforeNodePtr = nullptr;
+            afterNodePtr = m_startptr;
+            while (afterNodePtr != nullptr && afterNodePtr->getdata() < val) {
+                beforeNodePtr = afterNodePtr;
+                afterNodePtr = afterNodePtr->getnextptr();
+            }
+            if (beforeNodePtr == NULL) {
+                newNodePtr->setnextptr(m_startptr);
+                m_startptr = newNodePtr;
+            }
+            else {
+                beforeNodePtr->setnextptr(newNodePtr);
+                newNodePtr->setnextptr(afterNodePtr);
+            }
+        }
+    }
+
+    void remove(int val) {
+        NodePtr nodeToDeletePtr;
+        NodePtr priorNodePtr;
+
+        nodeToDeletePtr = m_startptr;
+        priorNodePtr = nullptr;
+        while (nodeToDeletePtr != nullptr && nodeToDeletePtr->getdata() != val){
+            priorNodePtr = nodeToDeletePtr;
+            nodeToDeletePtr = nodeToDeletePtr->getnextptr();
+        }
+
+        if (nodeToDeletePtr == nullptr) {
+            return;
+        }
+        else if (priorNodePtr == nullptr) {
+            m_startptr = m_startptr->getnextptr();
+            delete nodeToDeletePtr;
+        }
+        else {
+            priorNodePtr->setnextptr(nodeToDeletePtr->getnextptr());
+            delete nodeToDeletePtr;
+        }
+    }
+
+    void clear() {
+        Node *currentPtr = m_startptr;
+        Node *next;
+        while (currentPtr != nullptr){
+            cout << currentPtr->getdata() << " is being deleted" << endl;
+            next = currentPtr->getnextptr();
+            remove(currentPtr->getdata());
+            currentPtr = next;
+        }
+    }
+
+    ~List() {
+        cout << "Destructor" << endl;
+        clear();
+    }
+private:
+    Node *m_startptr;
+};
+#endif //HW7_LIST_H

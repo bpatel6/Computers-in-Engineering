@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CIE/spring19/bpatel6/homework/hw3/Date.cpp
+iostream
+-
+cmath
+-
+Date.h
+C:/CIE/spring19/bpatel6/homework/hw3/Date.h
+
+C:/CIE/spring19/bpatel6/homework/hw3/Date.h
+
+C:/CIE/spring19/bpatel6/homework/hw3/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+cmath
+-
+Date.h
+C:/CIE/spring19/bpatel6/homework/hw3/Date.h
+

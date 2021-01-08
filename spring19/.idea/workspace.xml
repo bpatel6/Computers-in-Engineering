@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="hw7" targetName="hw7" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ebf0b51-7edb-46e5-92a3-df8f9350e704" name="Default Changelist" comment="Homework is finished" />
+    <ignored path="$PROJECT_DIR$/bpatel6/homework/hw3/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/bpatel6/homework/hw4/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/bpatel6/homework/hw5/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/bpatel6/homework/hw6/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/bpatel6/homework/hw7/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw7/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw7/List.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2448">
+              <caret line="136" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw7/Node.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>enemy</find>
+      <find>ts</find>
+      <find>.x</find>
+      <find>.y</find>
+      <find>move</find>
+      <find>.getx</find>
+      <find>.gety</find>
+      <find>a[</find>
+      <find>Enemy</find>
+      <find>thrust</find>
+      <find>a</find>
+      <find>aster</find>
+      <find>entities</find>
+      <find>entity</find>
+      <find>*a</find>
+      <find>*b</find>
+      <find>settings</find>
+      <find>diamond</find>
+      <find>sound2</find>
+      <find>sound1</find>
+      <find>sound</find>
+      <find>asteroid</find>
+      <find>life_player</find>
+      <find>tex</find>
+      <find>score</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.x</replace>
+      <replace>.y</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw3/main.cpp" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw3/Date.cpp" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw3/Date.h" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw3/birthdays.txt" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw4/Enemy.h" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw4/Enemy.cpp" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw4/main.cpp" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw5/main.cpp" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw6/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw6/main.cpp" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw7/Node.h" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw7/main.cpp" />
+        <option value="$PROJECT_DIR$/bpatel6/homework/hw7/List.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bpatel6/homework/hw6/sounds" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CIE\spring19\bpatel6\homework\hw6\sounds" />
+      <recent name="C:\CIE\spring19\bpatel6\homework\hw6\images" />
+      <recent name="C:\CIE\spring19\bpatel6\homework\hw5\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\CIE\spring19\bpatel6\homework\hw4\images" />
+      <recent name="C:\CIE\spring19\bpatel6\homework\hw4" />
+      <recent name="C:\CIE\spring19\bpatel6\homework" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.hw7">
+    <configuration name="Asteroids" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw7" TARGET_NAME="Asteroids" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw7" RUN_TARGET_NAME="Asteroids">
+      <envs>
+        <env name="PATH" value="%PATH%;C:\Program Files\SFML-2.5.1\bin;C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xonix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw7" TARGET_NAME="Xonix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw7" RUN_TARGET_NAME="Xonix">
+      <envs>
+        <env name="PATH" value="%PATH%;C:\Program Files\SFML-2.5.1\bin;C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw7" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw7" TARGET_NAME="hw7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw7" RUN_TARGET_NAME="hw7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Asteroids" />
+      <item itemvalue="CMake Application.Xonix" />
+      <item itemvalue="CMake Application.hw7" />
+    </list>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Suku\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\CIE\spring19" />
+          <option name="myCopyRoot" value="C:\CIE\spring19" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\CIE\spring19" />
+          <option name="myCopyRoot" value="C:\CIE\spring19" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ebf0b51-7edb-46e5-92a3-df8f9350e704" name="Default Changelist" comment="" />
+      <created>1550463395971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550463395971</updated>
+      <workItem from="1550463398159" duration="2607000" />
+      <workItem from="1550712433128" duration="3703000" />
+      <workItem from="1550718401886" duration="173000" />
+      <workItem from="1551149894290" duration="165000" />
+      <workItem from="1551488312705" duration="10000" />
+      <workItem from="1551488343322" duration="392000" />
+      <workItem from="1551841950556" duration="8000" />
+      <workItem from="1551841977366" duration="1315000" />
+      <workItem from="1551844053351" duration="745000" />
+      <workItem from="1551927736983" duration="5723000" />
+      <workItem from="1552009491397" duration="2418000" />
+      <workItem from="1552013526255" duration="456000" />
+      <workItem from="1552014021846" duration="8000" />
+      <workItem from="1552344158890" duration="1301000" />
+      <workItem from="1552356378600" duration="236000" />
+      <workItem from="1552356697653" duration="189000" />
+      <workItem from="1552450095710" duration="373000" />
+      <workItem from="1553648272737" duration="5553000" />
+      <workItem from="1553736460572" duration="385000" />
+      <workItem from="1553737042156" duration="2568000" />
+      <workItem from="1553806156265" duration="2134000" />
+      <workItem from="1554339216101" duration="6985000" />
+      <workItem from="1554346797109" duration="1439000" />
+      <workItem from="1555381065228" duration="4967000" />
+      <workItem from="1555463175252" duration="6277000" />
+    </task>
+    <task id="LOCAL-00001" summary="getting started somethings are working as it should be! :)">
+      <created>1550465992197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550465992198</updated>
+    </task>
+    <task id="LOCAL-00002" summary="everything is working now just need to add comments">
+      <created>1550714194037</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550714194037</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homework is completed">
+      <created>1550715347969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550715347969</updated>
+    </task>
+    <task id="LOCAL-00004" summary="work in progress">
+      <created>1551843200072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551843200072</updated>
+    </task>
+    <task id="LOCAL-00005" summary="work in progress">
+      <created>1551933450633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551933450633</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Final commit&#10;I didn't have to use get/set for some of the value because the constructor it self initialized the value of member variables, but they are there if they are needed to test other values">
+      <created>1552011599098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552011599098</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Final edit completed">
+      <created>1552013958380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552013958380</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Homework finished &#10;fixed the annoying sound bug">
+      <created>1552345354487</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1552345354487</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homework finished&#10;added sources to the audio and font">
+      <created>1552450411776</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1552450411777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aliens are coming &#10;woof woof...">
+      <created>1553652357299</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1553652357299</updated>
+    </task>
+    <task id="LOCAL-00011" summary="you can hit ufo with bullet and by spaceship &#10;it gets destroyed too">
+      <created>1553654122228</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553654122228</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bullet sound added + only 15 asteroids are spawn now">
+      <created>1553737485389</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553737485389</updated>
+    </task>
+    <task id="LOCAL-00013" summary="count for life is added">
+      <created>1553739089080</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553739089080</updated>
+    </task>
+    <task id="LOCAL-00014" summary="count for life is added">
+      <created>1553807505385</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553807505385</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added comments">
+      <created>1554345047554</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554345047554</updated>
+    </task>
+    <task id="LOCAL-00016" summary="homework completed">
+      <created>1554346424864</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554346424864</updated>
+    </task>
+    <task id="LOCAL-00017" summary="homework completed">
+      <created>1554350386069</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1554350386069</updated>
+    </task>
+    <task id="LOCAL-00018" summary="work in progress!!">
+      <created>1555386322484</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386322484</updated>
+    </task>
+    <task id="LOCAL-00019" summary="almost done!!">
+      <created>1555466924783</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555466924783</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Homework is finished">
+      <created>1555468180818</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555468180818</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Homework is finished">
+      <created>1555468276536</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555468276536</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Homework is finished">
+      <created>1555468692074</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555468692074</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50130000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1652452" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626866" weight="0.28710726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49626866" weight="0.248104" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.4968017" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="SVN Repositories" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1652452" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.27735645" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49626866" weight="0.248104" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" weight="0.60238355" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4978678" weight="0.32827735" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="SVN Repositories" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="getting started somethings are working as it should be! :)" />
+    <MESSAGE value="everything is working now just need to add comments" />
+    <MESSAGE value="homework is completed" />
+    <MESSAGE value="work in progress" />
+    <MESSAGE value="Final commit&#10;I didn't have to use get/set for some of the value because the constructor it self initialized the value of member variables, but they are there if they are needed to test other values" />
+    <MESSAGE value="Final edit completed" />
+    <MESSAGE value="Homework finished &#10;fixed the annoying sound bug" />
+    <MESSAGE value="homework finished&#10;added sources to the audio and font" />
+    <MESSAGE value="aliens are coming &#10;woof woof..." />
+    <MESSAGE value="you can hit ufo with bullet and by spaceship &#10;it gets destroyed too" />
+    <MESSAGE value="bullet sound added + only 15 asteroids are spawn now" />
+    <MESSAGE value="count for life is added" />
+    <MESSAGE value="added comments" />
+    <MESSAGE value="homework completed" />
+    <MESSAGE value="work in progress!!" />
+    <MESSAGE value="almost done!!" />
+    <MESSAGE value="Homework is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework is finished" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/I like Turtles/I like Turtles/mycode (2).cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/I like Turtles/I like Turtles/print-1.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw3/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/I like Turtles/I like Turtles/HW6.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding>
+            <element signature="e#199#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw3/Date.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw3/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw3/Date.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw3/birthdays.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="99" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw2/Date.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw4/Enemy.h" />
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw4/Enemy.cpp" />
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw2/Date.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw4/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/x86_64-w64-mingw32/include/wingdi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="2821" column="52" selection-start-line="2821" selection-start-column="52" selection-end-line="2821" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw4/images/enemy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw4/images/tiles.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw4/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw6/images/ufo.png" />
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw6/images/rock.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw6/images/rock_small.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw5/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="164" column="16" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="166" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw6/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="443" column="82" selection-start-line="443" selection-start-column="82" selection-end-line="443" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw6/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw7/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw7/List.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="136" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bpatel6/homework/hw7/Node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

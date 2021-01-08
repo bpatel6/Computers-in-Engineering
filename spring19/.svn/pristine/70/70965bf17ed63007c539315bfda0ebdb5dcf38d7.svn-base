@@ -1,0 +1,51 @@
+//
+// Created by Suku on 4/25/2019.
+//
+#include <iostream>
+#include <string>
+#include "Date.h"
+using namespace std;
+
+#ifndef HW8_FOOD_H
+#define HW8_FOOD_H
+
+class Food{
+public:
+    explicit Food (string nameFood = "Nothing", int count = 1, int month = 1, int day = 1, int year = 2020) : name{nameFood}, count{count}, expireDate{Date(month,day,year)}{
+    };
+
+    bool isExpired(const Date& D){
+        if (D.getMonth() >= expireDate.getMonth() && D.getDay() >= expireDate.getDay() && D.getYear() >= expireDate.getYear()){
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+
+    void setCount(int count) {
+        Food::count = count;
+    }
+
+    const string &getName() const {
+        return name;
+    }
+
+    int getCount() const {
+        return count;
+    }
+
+    friend ostream &operator<<(ostream &os, const Food &food) {
+        os << "name:" << food.name << " count:" << food.count << " expireDate:" << food.expireDate;
+        return os;
+    }
+
+private:
+    string name;
+    int count;
+    Date expireDate;
+
+};
+
+
+#endif //HW8_FOOD_H

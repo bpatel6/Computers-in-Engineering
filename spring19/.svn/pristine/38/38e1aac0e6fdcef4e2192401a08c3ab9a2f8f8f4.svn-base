@@ -1,0 +1,142 @@
+//
+// Created by Suku on 4/10/2019.
+//
+using namespace std;
+
+#ifndef HW7_LIST_H
+#define HW7_LIST_H
+class List{
+public:
+    ////////////
+    // Description: Constructor - Initialize the startPtr to nullptr
+    ///////////
+    List() : m_startptr{nullptr} {
+    }
+
+    ////////////
+    // Description: Copy Constructor - Copies the value of the listtocopy into the new list created in main.cpp
+    ///////////
+    List(List const &listToCopy) : m_startptr{nullptr} {
+        cout << "Copy Constructor Called" << endl;
+
+        for (Node *currentPtr = listToCopy.m_startptr; currentPtr != nullptr; currentPtr = currentPtr->getnextptr()){
+            insert(currentPtr->getdata());
+        }
+    }
+
+    ////////////
+    // Description: Checks if list is empty or not if it is returns 1 otherwise returns 0
+    ///////////
+    bool empty() const {
+        if (m_startptr == nullptr) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    ////////////
+    // Description: Prints every element of the list
+    ///////////
+    void print() const {
+        for (Node *currentPtr = m_startptr; currentPtr != nullptr; currentPtr = currentPtr->getnextptr()){
+            cout << currentPtr->getdata() << " ";
+        }
+    }
+
+    ////////////
+    // Description: Following function takes in a value and insert into the list in sorted order
+    // Input: int val - which # user want to put it into the list
+    // Output: nothing
+    ///////////
+    void insert(int val) {
+        NodePtr newNodePtr;
+        NodePtr beforeNodePtr, afterNodePtr;
+        newNodePtr = new Node;
+
+        if (newNodePtr != nullptr) {
+            newNodePtr->setdata(val);               // Sets the value of the newNode created
+            newNodePtr->setnextptr(nullptr);        // Sets the nextPtr of the newNode to nullPtr
+
+            beforeNodePtr = nullptr;
+            afterNodePtr = m_startptr;
+            // While loop to get before nodePtr and after nodePtr
+            while (afterNodePtr != nullptr && afterNodePtr->getdata() < val) {
+                beforeNodePtr = afterNodePtr;
+                afterNodePtr = afterNodePtr->getnextptr();
+            }
+            // Sets the newNode to start if it's less then other value or list is empty
+            if (beforeNodePtr == NULL) {
+                newNodePtr->setnextptr(m_startptr);
+                m_startptr = newNodePtr;
+            }
+            // Sets the newNode in middle or at the end of the list based on the value
+            else {
+                beforeNodePtr->setnextptr(newNodePtr);
+                newNodePtr->setnextptr(afterNodePtr);
+            }
+        }
+    }
+
+    ////////////
+    // Description: Following function takes in a value and removes it from the list
+    // Input: int val - which # user want to remove from the list
+    // Output: nothing
+    ///////////
+    void remove(int val) {
+        NodePtr nodeToDeletePtr;
+        NodePtr priorNodePtr;
+
+        nodeToDeletePtr = m_startptr;
+        priorNodePtr = nullptr;
+        // Finds the node before the node need to be deleted and sets nodetodeleteptr to exact ptr that needs to be deleted
+        while (nodeToDeletePtr != nullptr && nodeToDeletePtr->getdata() != val){
+            priorNodePtr = nodeToDeletePtr;
+            nodeToDeletePtr = nodeToDeletePtr->getnextptr();
+        }
+
+        // Incase list is empty
+        if (nodeToDeletePtr == nullptr) {
+            return;
+        }
+
+        // If the value is in the bargaining of the list
+        else if (priorNodePtr == nullptr) {
+            m_startptr = m_startptr->getnextptr();
+            delete nodeToDeletePtr;
+        }
+
+        // If the value is in middle or at the end of the list
+        else {
+            priorNodePtr->setnextptr(nodeToDeletePtr->getnextptr());
+            delete nodeToDeletePtr;
+        }
+    }
+
+    ////////////
+    // Description: Deletes all the element of the list
+    ///////////
+    void clear() {
+        Node *currentPtr = m_startptr;
+        Node *next;
+        // Loop to iterate over the whole list and delete all of it element
+        while (currentPtr != nullptr){
+            cout << currentPtr->getdata() << " is being deleted" << endl;
+            next = currentPtr->getnextptr();
+            remove(currentPtr->getdata());
+            currentPtr = next;
+        }
+    }
+
+    ////////////
+    // Description: Destructor which will delete all the element of the list at the end of program run
+    ///////////
+    ~List() {
+        cout << "Destructor" << endl;
+        clear();
+    }
+private:
+    Node *m_startptr;
+};
+#endif //HW7_LIST_H

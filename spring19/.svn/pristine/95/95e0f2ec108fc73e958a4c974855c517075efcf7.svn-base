@@ -1,0 +1,22 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include "Date.h"
+std::string line;
+using namespace std;
+int main() {
+    ifstream fin("birthdays.txt");
+    if (fin.fail()){
+        cerr << "File birthdays.txt failed to open." << endl;
+        return -1;
+    }
+    else if (fin.is_open()) {
+        cout << "File birthdays.txt opened successfully" << endl;
+        while (fin.good()) {
+            fin >> line;
+            cout << line << endl;
+        }
+    }
+    fin.close();
+    return 0;
+}

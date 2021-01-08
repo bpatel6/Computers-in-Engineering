@@ -1,0 +1,20 @@
+//
+// Created by Suku on 4/10/2019.
+//
+using namespace std;
+
+#ifndef HW7_LIST_H
+#define HW7_LIST_H
+class List{
+public:
+    List() : m_startptr{nullptr} {
+    }
+    bool empty() const {
+        if (m_startptr == nullptr) {
+            cout << "List is Empty" << endl;
+        }
+    }
+private:
+    Node *m_startptr;
+};
+#endif //HW7_LIST_H

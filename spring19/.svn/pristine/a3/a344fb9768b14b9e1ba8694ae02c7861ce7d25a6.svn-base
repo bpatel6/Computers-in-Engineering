@@ -1,0 +1,32 @@
+#include <iostream>
+#include "Node.h"
+#include "List.h"
+using namespace std;
+int main() {
+    List A;
+
+    /*A.empty();*/
+    Node n1, n2, n3, n4, n5;
+    NodePtr startptr;
+    A.insert(5);
+    A.insert(30);
+    A.insert(50);
+    A.insert(100);
+    A.insert(6);
+
+    List B = A;
+    B.print();
+    B.remove(6);
+    B.print();
+    A.print();
+    //B.remove(6);
+    //B.print();
+
+    /*A.empty();
+    A.print();
+    //A.clear();
+    A.empty();
+    A.~List();
+    A.empty();*/
+
+}

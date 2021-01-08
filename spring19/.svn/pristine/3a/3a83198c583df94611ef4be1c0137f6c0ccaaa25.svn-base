@@ -1,0 +1,35 @@
+#include <iostream>
+#include "Date.h"
+#include "Food.h"
+#include "Frig.h"
+#include <fstream>
+
+using namespace std;
+string line;
+int a,b,c,d;
+int main() {
+    Date D1(4,25,2019);
+    Frig f3;
+    f3.setCurrentDay(D1);
+    ifstream fin("input.txt");
+    if (fin.fail()){
+        cerr << "File input.txt failed to open" << endl;
+        return -1;
+    }
+    else if (fin.is_open()){
+        cout << "File input.txt opened successfully" << endl;
+        while (fin >> line >> a >> b >> c >> d){
+            f3.additem(line,a,b,c,d);
+        }
+    }
+    fin.close();
+    f3.printfrigcontent();
+    f3.printexpiredcontent();
+    f3.additem("carrots", 100,8,5,2019);
+    f3.removeitem("eggs", 12);
+    f3.removeitem("soda", 5);
+    f3.removeitem("milk", 3);
+    f3.printfrigcontent();
+
+    return 0;
+}
